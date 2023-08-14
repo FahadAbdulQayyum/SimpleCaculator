@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Button = ({onPressBtn}) => {
+const Buttons = ({onPressBtn}) => {
     return (
         <div className="grid grid-cols-4 gap-4 p-5">
             <button onClick={onPressBtn} value={1} className="bg-gradient-to-r from-teal-500 to-blue-400 shadow drop-shadow-xl p-5 text-center rounded active:scale-110 ease-in-out duration-300 text-4xl text-white">1</button>
@@ -23,4 +21,4 @@ const Button = ({onPressBtn}) => {
     )
 }
 
-export default Button;
+export default Buttons;

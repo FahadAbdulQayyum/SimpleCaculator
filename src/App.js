@@ -58,18 +58,12 @@ function App() {
   
   return (
     <div>
-      {/* <div className="w-[50%] bg-slate-500 m-auto h-screen flex flex-col gap-2 p-5"> */}
       <div className="w-[50%] bg-gradient-to-b from-zinc-500 m-auto h-screen flex flex-col gap-2 p-5">
-        {/* <div className="bg-cyan-300 h-[80px] w-full rounded-full relative"> */}
-        {/* <div className="bg-gradient-to-r from-zinc-300 to-blue-500 h-[80px] w-full rounded-full relative"> */}
         <div className="bg-gradient-to-r from-zinc-300 to-blue-500 h-[80px] w-full rounded-xl relative">
-        {/* <input type='number' disabled value={+toCalculate>0 ? toCalculate.toString() : valueC.join("")} className="bg-slate-200 h-[80%] w-[97%] rounded-full m-2 outline-0 p-3" /> */}
         <input type='number' disabled value={+toCalculate>0 ? toCalculate.toString() : valueC.join("")} className="bg-slate-200 h-[80%] w-[97%] rounded-xl m-2 outline-0 p-3 text-4xl" />
         </div>
-        {/* <div className="bg-cyan-300 h-[90%] w-full rounded place-content-center"> */}
         <div className="bg-zinc-300 h-[90%] w-full rounded place-content-center">
             <div className="grid grid-cols-4 gap-4 p-5">
-              {/* <button onClick={onPressBtn} value={1} className="bg-orange-400 p-5 text-center rounded active:scale-110 ease-in-out duration-300 text-lg font-bold">1</button> */}
               <button onClick={onPressBtn} value={1} className="bg-gradient-to-r from-teal-500 to-blue-400 shadow drop-shadow-xl p-5 text-center rounded active:scale-110 ease-in-out duration-300 text-4xl text-white">1</button>
               <button onClick={onPressBtn} value={2} className="bg-gradient-to-r from-teal-500 to-blue-400 shadow drop-shadow-xl p-5 text-center rounded active:scale-110 ease-in-out duration-300 text-4xl text-white">2</button>
               <button onClick={onPressBtn} value={3} className="bg-gradient-to-r from-teal-500 to-blue-400 shadow drop-shadow-xl p-5 text-center rounded active:scale-110 ease-in-out duration-300 text-4xl text-white">3</button>
